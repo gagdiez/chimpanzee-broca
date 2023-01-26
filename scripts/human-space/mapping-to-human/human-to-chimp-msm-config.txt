@@ -1,0 +1,10 @@
+--sigma_ref=4,3,2
+--sigma_in=8,4,2
+--lambda=0.2,0.2,0.2
+--it=20,20,25
+--opt=DISCRETE,DISCRETE,DISCRETE
+--regoption=3
+--regexp=2
+--dopt=HOCR
+--rescaleL
+--VN
