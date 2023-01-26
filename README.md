@@ -44,5 +44,7 @@ The pipeline used to compare the chimpanzee Broca's atlas with human Broca and i
 # References
 
 [1] Amunts K, Schleicher A, Bürgel U, Mohlberg H, Uylings HB, Zilles K. Broca’s region revisited: cytoarchitecture and intersubject variability. J Comp Neurol. 1999;412: 319–341.
+
 [2] Clos M, Amunts K, Laird AR, Fox PT, Eickhoff SB. Tackling the multifunctional nature of Broca’s region meta-analytically: co-activation-based parcellation of area 44. Neuroimage. 2013;83: 174–188.
+
 [3] Papitto G, Friederici AD, Zaccarella E. The topographical organization of motor processing: An ALE meta-analysis on six action domains and the relevance of Broca’s region. Neuroimage. 2020;206: 116321.
