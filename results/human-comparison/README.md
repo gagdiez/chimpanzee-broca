@@ -1,4 +1,5 @@
 # Comparing the Chimpanzee Broca with its Human Homolog and Functional Subdivisions
+![](../..//images/comparison.png)
 
 This folder contains the files used to compare the Chimpanzee BA44 and BA45 projected to the MNI human template (ICBM152 9c Asymmetric), with an atlas of the human BA44 and BA45 [1], and functional studies [2][3].
 

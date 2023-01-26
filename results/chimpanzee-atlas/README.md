@@ -1,5 +1,7 @@
 # Probabilistic Atlas of the Chimpanzee BA44 and BA45
 
+![](./images/chimp-atlas.png)
+
 This folder contains the probabilistic atlas of cytoarchitectural areas BA44 and BA45 in the chimpanzee template (JUNA).
 
 To visualize and manipulate these files you will need the [Connectome Workbench](https://www.humanconnectome.org/software/connectome-workbench).

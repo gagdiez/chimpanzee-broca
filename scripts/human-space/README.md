@@ -4,7 +4,10 @@ This folder contains the scripts used to map the Chimpanzee BA44 and BA45 to the
 
 ---
 
-### Mapping the Chimpanzee JUNA surface to the Human MNI surface 
+#### Mapping the Chimpanzee JUNA surface to the Human MNI surface
+
+![](../../images/registration.png)
+
 The pipeline in [./mapping-to-human/project_surface_template.sh](./mapping-to-human/project_surface_template.sh) performs a two step alignment of the human MNI brain with the chimpanzee JUNA brain using [MSM](https://github.com/ecr05/MSM_HOCR).
 
 In the first step we align the brains based on the `aparc` parcelation obtained during the Freesurfer reconstruction. We then align them using the `sulc` (sulcal data depth) information.

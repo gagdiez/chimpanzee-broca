@@ -1,17 +1,24 @@
 # Uncovering the Morphological Evolution of Language-Relevant Brain Areas
 
-![](./images/chimp-atlas.png)
-
+![](./images/pipeline.png)
 
 ---
 
 ## Results Folder
 The `./results` folder contains the main results derived from our study.
 
-#### Probabilistic Atlas of the Chimpanzee BA44 and BA45 
+#### Probabilistic Atlas of the Chimpanzee BA44 and BA45
+
+![](./images/chimp-atlas.png)
+
 The folder [`./results/chimpanzee-atlas](`./results/chimpanzee-atlas`) contains the probabilistic atlas of cytoarchitectural regions BA44 and BA45 in the chimpanzee template (JUNA).
 
+
+
 #### Projection of the Chimpanzee BA44 and BA45 to the Human Brain
+
+![](./images/comparison.png)
+
 The folder [`./results/human-comparison](`./results/human-comparison`) contains the following information projected to the MNI surface:
 1. The atlases of chimpanzee BA44 and BA45.
 2. The atlases of human BA44 and BA45 [1].
