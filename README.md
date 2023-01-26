@@ -1,16 +1,17 @@
 # Uncovering the Morphological Evolution of Language-Relevant Brain Areas
 
-Within this project you will find two folders: `results` and `scripts`.
+![](./images/chimp-atlas.png)
+
 
 ---
 
 ## Results Folder
 The `./results` folder contains the main results derived from our study.
 
-### Probabilistic Atlas of the Chimpanzee BA44 and BA45 
+#### Probabilistic Atlas of the Chimpanzee BA44 and BA45 
 The folder [`./results/chimpanzee-atlas](`./results/chimpanzee-atlas`) contains the probabilistic atlas of cytoarchitectural regions BA44 and BA45 in the chimpanzee template (JUNA).
 
-### Projection of the Chimpanzee BA44 and BA45 to the Human Brain
+#### Projection of the Chimpanzee BA44 and BA45 to the Human Brain
 The folder [`./results/human-comparison](`./results/human-comparison`) contains the following information projected to the MNI surface:
 1. The atlases of chimpanzee BA44 and BA45.
 2. The atlases of human BA44 and BA45 [1].
@@ -21,14 +22,14 @@ The folder [`./results/human-comparison](`./results/human-comparison`) contains 
 ## Script Folder
 The `./scripts` folder contains the scripts used for computing the results from our paper.
 
-### Chimpanzee Atlas Creation
+#### Chimpanzee Atlas Creation
 The pipeline used to reconstruct the individual surface, composed by 4 steps:
 1. Preprocessing the individual volumes.
 2. Processing the individual volumes with Freesurfer.
 3. Transforming the surfaces to the GIFTI format (compatible with the [Connectome Workbench](https://www.humanconnectome.org/software/connectome-workbench)).
 4. Translating the individual surfaces to the JUNA template space, and averaging them to obtain the atlas.
 
-### Human Comparison
+#### Human Comparison
 The pipeline used to compare the chimpanzee Broca's atlas with human Broca and its functional subdivisions.
 
 --- 
