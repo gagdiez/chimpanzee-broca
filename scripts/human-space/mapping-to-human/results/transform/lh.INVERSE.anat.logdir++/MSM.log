@@ -1,3 +1,0 @@
-/Users/gagdiez/apps/msm_mac_v3 --refmesh=../../../results/chimpanzee-atlas/JUNA-surface-reconstruction/lh.sphere.surf.gii --inmesh=../../../results/human-comparison/MNI-surface-reconstruction/lh.sphere.surf.gii --refdata=../../../results/chimpanzee-atlas/JUNA-surface-reconstruction/lh.aparc.label.gii --indata=../../../results/human-comparison/MNI-surface-reconstruction/lh.aparc.label.gii --out=./results/transform/lh.INVERSE.anat. 
----------------------------------------------
-
