@@ -9,24 +9,26 @@ When visualizing th results, please notice that you need to load a surface file 
 
 
 ---
-### `./MNI-surface-reconstruction (folder)`
+## Files
+
+#### [`./MNI-surface-reconstruction (folder)`](./MNI-surface-reconstruction/)
 3D reconstructions of the MNI human brain template (ICBM152 9c Asymmetric). A variety of surfaces are available:
 - White surface: 3D reconstruction of the white-matter surface
 - Pial surface: 3D reconstruction of the gray-matter surface
 - Inflated: Inflated version of the gray matter, for better visualization purposes
 - Sphere: Spherical mapping of the cortical surface, useful for cortical registrations. 
 
-### `./broca-ROIs (folder)`
+#### [`./broca-ROIs (folder)`](./broca-ROIs/)
 Probabilistic atlas of BA44 and BA45 in the MNI space for both humans and chimpanzees. The file names follow a pattern `{species}.{hemisphere}.BA{R}.func.gii`, where `species` is either `human` or `chimp`, `hemisphere` is either `lh` (left) or `rh` (right), and `R` is `44` or `45`.
 
 For example, the file `human.lh.BA44.func.gii` can be loaded over the MNI reconstruction of the left hemisphere, and will show the human probabilistic atlas for BA44.
 
-### `./functional-ROIs (folder)`
+#### [`./functional-ROIs (folder)`](./functional-ROIs/)
 Contains the regions reported by Clos et al. [3] and Papitto et al. [4] projected to the cortical surface of the MNI template.
 
-### `Areas Overlap.ipynb`
-Ipython notebook used to compute the overlap between the chimpanzee BA44 projected to MNI the regions present in `functional-ROIs`.
+---
 
+# References
 
 [1] Amunts K, Schleicher A, Bürgel U, Mohlberg H, Uylings HB, Zilles K. Broca’s region revisited: cytoarchitecture and intersubject variability. J Comp Neurol. 1999;412: 319–341.
 [2] Clos M, Amunts K, Laird AR, Fox PT, Eickhoff SB. Tackling the multifunctional nature of Broca’s region meta-analytically: co-activation-based parcellation of area 44. Neuroimage. 2013;83: 174–188.

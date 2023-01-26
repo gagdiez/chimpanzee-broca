@@ -9,7 +9,10 @@ To visualize and manipulate these files you will need the [Connectome Workbench]
 When visualizing th results, please notice that you need to load a surface file (`.surf.gii`) in the [Connectome Workbench](https://www.humanconnectome.org/software/connectome-workbench) before loading any atlas file (`.func.gii`).
 
 ---
-### `./JUNA-surface-reconstructions (folder)`
+
+## Files
+
+#### [`./JUNA-surface-reconstructions (folder)`](./JUNA-surface-reconstruction/)
 3D reconstructions of the JUNA chimpanzee brain template. A variety of surfaces are available:
 - White surface: 3D reconstruction of the white-matter surface
 - Pial surface: 3D reconstruction of the gray-matter surface

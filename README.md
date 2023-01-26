@@ -4,8 +4,8 @@
 
 ---
 
-# Results Folder
-The `./results` folder contains the main results derived from our study.
+# [Results Folder](./results/)
+The [`./results`](./results/) folder contains the main results derived from our study.
 
 ## Probabilistic Atlas of the Chimpanzee BA44 and BA45
 The folder [`./results/chimpanzee-atlas](`./results/chimpanzee-atlas`) contains the probabilistic atlas of cytoarchitectural regions BA44 and BA45 in the chimpanzee template (JUNA).
@@ -26,8 +26,8 @@ The folder [`./results/human-comparison](`./results/human-comparison`) contains 
 ---
 
 
-# Script Folder
-The `./scripts` folder contains the scripts used for computing the results from our paper.
+# [Scripts Folder](./scripts)
+The [`./scripts`](./scripts/) folder contains the scripts used for computing the results from our paper.
 
 ## Chimpanzee Atlas Creation
 The pipeline used to reconstruct the individual surface, composed by 4 steps:

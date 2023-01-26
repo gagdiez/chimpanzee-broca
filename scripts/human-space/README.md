@@ -4,7 +4,7 @@ This folder contains the scripts used to map the Chimpanzee BA44 and BA45 to the
 
 ---
 
-#### Mapping the Chimpanzee JUNA surface to the Human MNI surface
+## Mapping the Chimpanzee JUNA surface to the Human MNI surface
 
 ![](../../images/registration.png)
 
@@ -15,7 +15,7 @@ In the first step we align the brains based on the `aparc` parcelation obtained 
 Notice that we compute the registration using the MNI template as `moving` and the JUNA template as `fixed`. Meaning that we register the MNI template to the JUNA brain, and then use the inverse transform to project information from the chimpanzee to the human brain. 
 
 ---
-### Comparing Volumes Across Species 
+## Comparing Volumes Across Species 
 
 The file [./roi_volume/1.individual_chimps_to_icbm.sh](./roi_volume/1.individual_chimps_to_icbm.sh) projects the individual chimpanzee projects to the MNI surface, and then projects them to the volumetric MNI space. The algorithm used projects each region (e.g. BA44, BA45) in such a way that it covers only the portion that it corresponds of gray matter.
 
@@ -23,6 +23,6 @@ Then [./roi_volume/2.print_metrics.py](./roi_volume/2.print_metrics.py) simply l
 
 ---
 
-### Overlap Between Chimpanzee BA44 and Functional Subdivisions of the Human BA44
+## Overlap Between Chimpanzee BA44 and Functional Subdivisions of the Human BA44
 
 The jupyter notebook [Areas Overlap](./Areas%20Overlap.ipynb) loads the chimpanzee BA44 and functional subdivisions of the human BA44, and computes the overlap between them.
