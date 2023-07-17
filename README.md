@@ -5,6 +5,8 @@
 ---
 
 # [Results Folder](./results/)
+[![DOI](https://zenodo.org/badge/593430158.svg)](https://zenodo.org/badge/latestdoi/593430158)
+
 The [`./results`](./results/) folder contains the main results derived from our study.
 
 ## Probabilistic Atlas of the Chimpanzee BA44 and BA45
